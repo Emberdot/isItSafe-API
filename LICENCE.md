@@ -1,1 +1,1 @@
-[Is It Safe? - API](https://github.com/Is-It-Safe/isItSafe-API) by [Ester Mabel](https://github.com/estermabel) is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1).
+[Is It Safe? - API](https://github.com/Is-It-Safe/isItSafe-API) is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1).
