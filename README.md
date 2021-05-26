@@ -65,11 +65,7 @@
 
 ### 🏃‍♂️ Run:
 1. Faça o clone do repositório.
-2. Rodar os comandos abaixo:
 
-`flutter pub get`
-
-`flutter run`
 
 ## 👍🏳️‍🌈 Suporte
 Se você gostou da ideia do projeto e quer incentivar ele a crescer, dá uma estrela no repositório. Dessa forma, nós vamos saber que estamos seguindo o caminho certo no processo de tornar o mundo um ambiente mais seguro para pessoas **LGBTQ+** 🏳️‍🌈.
