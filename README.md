@@ -16,7 +16,7 @@
 
 
 
-## Sobre 🤔 
+## 🤔 Sobre 
 **Is It Safe?** É um aplicativo mobile para IOS e Android Open-Source que surgiu com o objetivo de manter a segurança de pessoas trans, mulheres lésbicas desfeminilizadas e outras pessoas da comunidade **LGBTQ+**. Nossa função é informar quais locais são mais seguros de se frequentar tais como: banheiros públicos, restaurantes e outros estabelecimentos, como uma tentativa de reduzir o índice de agressão contra a comunidade. 
 
 ## 📱 ShowCase
