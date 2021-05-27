@@ -75,6 +75,8 @@ Se quiser entrar em contato, você pode nos mandar um [email](mailto:isitsafe.co
 ## 🤝 Como contribuir?
 Nós somos um projeto Open-Source voltado para a comunidade e adoraríamos que a comunidade estivesse presente no desenvolvimento e crescimento do Is It Safe?. Caso tenha interesse, dê uma olhadinha nas nossas [regras de contribuição]() e fique à vontade para começar a contribuir.
 
+Se você faz parte da comunidade **LGBTQ+** 🏳️‍🌈, tem conhecimentos em desenvolvimento e quer contribuir de forma mais significativa, nos mande um [email](mailto:isitsafe.contact@gmail.com "email") ou uma dm no nosso [Twitter](https://twitter.com/IsItSafeApp "Twitter") para conversarmos mais sobre isso.
+
 ## ✍️ Autores
 | Nome |  Twitter |  GitHub | Função |
 | ------------ | ------------ | ------------ |  ------------ |
