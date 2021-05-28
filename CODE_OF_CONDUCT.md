@@ -64,10 +64,14 @@ de ações.
 
 ## Atribuição
 
-Este Código de Conduta foi adaptado do [Contrato do Colaborador] [página inicial], versão 2.0, disponível em [aqui]([https://www.contributorcovenant.org/version/2/0/code_of_conduct.html). 
+Este Código de Conduta foi adaptado do [Contrato do Colaborador][homepage], versão 2.0, disponível em [aqui](https://www.contributorcovenant.org/version/2/0/code_of_conduct.html). 
 
-As diretrizes de impacto na comunidade foram inspiradas por [Escada de aplicação do código de conduta da Mozilla] [Mozilla CoC].
+As diretrizes de impacto na comunidade foram inspiradas por [Mozilla CoC].
 
-Para respostas a perguntas comuns informações sobre este código de conduta, consulte o FAQ [aqui](https://www.contributor-covenant.org/faq). Traduções estão disponíveis [aqui](https://www.contributor-covenant.org/translations).
+Para respostas a perguntas comuns informações sobre este código de conduta, consulte o FAQ em [https://www.contributor-covenant.org/faq][FAQ]. Traduções estão disponíveis [aqui](https://www.contributor-covenant.org/translations).
 
-
+[homepage]: https://www.contributor-covenant.org
+[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[Mozilla CoC]: https://github.com/mozilla/diversity
+[FAQ]: https://www.contributor-covenant.org/faq
+[traduções]: https://www.contributor-covenant.org/translations
