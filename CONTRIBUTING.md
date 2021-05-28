@@ -8,7 +8,7 @@ Se você se deparar com algum bug ou quiser sugerir alguma feature, você pode a
 ## Pronte para fazer mudança?
 Olha rapidinho o nosso [código de conduta](https://github.com/Is-It-Safe/isItSafe-API/blob/main/CODE_OF_CONDUCT.md "código de conduta") e colabore à vontade!
 
-Nós agradecemos muito a sua contribuição. É muito importante para nós que a nossa aplicação continue crescendo e possamos virar referência dentro da comunidade **LGBTQ+**🏳️‍🌈 para garantir a segurança de muitos e você faz parte desse processo!!!
+Nós agradecemos muito a sua contribuição. É muito importante para nós que a nossa aplicação continue crescendo e possamos virar referência dentro da comunidade **LGBTQ+** 🏳️‍🌈 para garantir a segurança de muitos e você faz parte desse processo!!!
 
 
 
