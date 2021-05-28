@@ -39,7 +39,7 @@
 - O usuário pode adicionar um local
 - O usuário pode editar seu perfil
 
-## 📲 Como rodar?
+## 📲 Como rodar o [APP](https://github.com/Is-It-Safe/isItSafe-APP)?
 ### 🛠 Ferramentas:
 1. [VSCode](https://code.visualstudio.com "VSCode") 
 2. [Android Studio](https://developer.android.com "Android Studio")
@@ -57,14 +57,16 @@
 
 [Linux](https://flutter.dev/docs/get-started/install/linux "Linux")
 
-#### 🧮 API
-
-[Java SDK](https://www.oracle.com/java/ "Java SDK")
-
-[PostgreSQL](https://www.postgresql.org/download/ "PostgreSQL")
 
 ### 🏃‍♂️ Run:
 1. Faça o clone do repositório.
+2. Rodar os comandos abaixo:
+```sh
+flutter pub get
+```
+```sh
+flutter run
+```
 
 
 ## 👍🏳️‍🌈 Suporte
@@ -73,7 +75,7 @@ Se você gostou da ideia do projeto e quer incentivar ele a crescer, dá uma est
 Se quiser entrar em contato, você pode nos mandar um [email](mailto:isitsafe.contact@gmail.com "email") ou uma dm no nosso [Twitter](https://twitter.com/IsItSafeApp "Twitter").
 
 ## 🤝 Como contribuir?
-Nós somos um projeto Open-Source voltado para a comunidade e adoraríamos que a comunidade estivesse presente no desenvolvimento e crescimento do Is It Safe?. Caso tenha interesse, dê uma olhadinha nas nossas [regras de contribuição]() e fique à vontade para começar a contribuir.
+Nós somos um projeto Open-Source voltado para a comunidade e adoraríamos que a comunidade estivesse presente no desenvolvimento e crescimento do Is It Safe?. Caso tenha interesse, dê uma olhadinha nas nossas [regras de contribuição](https://github.com/Is-It-Safe/isItSafe-API/blob/main/CONTRIBUTING.md) e fique à vontade para começar a contribuir.
 
 Se você faz parte da comunidade **LGBTQ+** 🏳️‍🌈, tem conhecimentos em desenvolvimento e quer contribuir de forma mais significativa, nos mande um [email](mailto:isitsafe.contact@gmail.com "email") ou uma dm no nosso [Twitter](https://twitter.com/IsItSafeApp "Twitter") para conversarmos mais sobre isso.
 
@@ -88,7 +90,7 @@ Se você faz parte da comunidade **LGBTQ+** 🏳️‍🌈, tem conhecimentos em
 
 
 ## ℹ️ Info
-- [CODE_OF_CONDUCT.md]()
+- [CODE_OF_CONDUCT.md](https://github.com/Is-It-Safe/isItSafe-API/blob/main/CODE_OF_CONDUCT.md)
 - [LICENCE.md](https://github.com/Is-It-Safe/isItSafe-API/blob/main/LICENCE.md)
 - [Repositório do APP](https://github.com/Is-It-Safe/isItSafe-APP)
 
