@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import org.springframework.data.annotation.CreatedDate;
@@ -27,14 +28,25 @@ public class Usuario implements Serializable {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
+	private String fotoUrl;
+	
 	@NotNull
 	private String nome;
+	
+	@NotNull
+	private String sobrenome;
 	
 	@Column(name = "email", unique = true)
 	private String email;
 	
 	@Column(name = "senha", nullable = false, columnDefinition = "TEXT")
 	private String senha;
+	
+	@OneToOne
+	private Sexualidade sexualidade;
+	
+	@OneToOne
+	private Genero genero;
 	
 	@CreatedDate
 	@JsonFormat(timezone = "UTC", pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
@@ -54,12 +66,28 @@ public class Usuario implements Serializable {
 		this.id = id;
 	}
 	
+	public String getFotoUrl() {
+		return fotoUrl;
+	}
+
+	public void setFotoUrl(String fotoUrl) {
+		this.fotoUrl = fotoUrl;
+	}
+
 	public String getNome() {
 		return nome;
 	}
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}
 
 	public String getEmail() {
@@ -76,6 +104,22 @@ public class Usuario implements Serializable {
 
 	public void setSenha(String senha) {
 		this.senha = BCrypt.hashpw(senha, BCrypt.gensalt());
+	}
+
+	public Sexualidade getSexualidade() {
+		return sexualidade;
+	}
+
+	public void setSexualidade(Sexualidade sexualidade) {
+		this.sexualidade = sexualidade;
+	}
+
+	public Genero getGenero() {
+		return genero;
+	}
+
+	public void setGenero(Genero genero) {
+		this.genero = genero;
 	}
 
 	public Date getUpdatedAt() {
