@@ -12,7 +12,7 @@
 	<artifactId>isItSafe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>isItSafe</name>
-	<description>Is it safe?</description>
+	<description>Is it safe? API</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
