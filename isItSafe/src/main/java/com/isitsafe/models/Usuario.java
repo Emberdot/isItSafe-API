@@ -36,6 +36,9 @@ public class Usuario implements Serializable {
 	@NotNull
 	private String sobrenome;
 	
+	@NotNull
+	private String username;
+	
 	@Column(name = "email", unique = true)
 	private String email;
 	
@@ -89,6 +92,14 @@ public class Usuario implements Serializable {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
+	
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
 
 	public String getEmail() {
 		return email;
@@ -136,8 +147,9 @@ public class Usuario implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Usuario [id=" + id + ", nome=" + nome + ", email=" + email + ", senha=" + senha + ", createdAt="
-				+ createdAt + ", updatedAt=" + updatedAt + "]";
+		return "Usuario [id=" + id + ", fotoUrl=" + fotoUrl + ", nome=" + nome + ", sobrenome=" + sobrenome
+				+ ", username=" + username + ", email=" + email + ", senha=" + senha + ", sexualidade=" + sexualidade
+				+ ", genero=" + genero + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt + "]";
 	}
 	
 }
