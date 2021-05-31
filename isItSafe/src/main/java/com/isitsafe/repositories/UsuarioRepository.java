@@ -8,4 +8,5 @@ import com.isitsafe.models.Usuario;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 	/* TODO according to demand */
+	Usuario findUsuarioByEmail(String email);
 }

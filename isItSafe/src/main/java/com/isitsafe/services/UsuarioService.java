@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -38,6 +39,18 @@ public class UsuarioService {
 	@Transactional
 	public void delete(Long id) {
 		this.repository.deleteById(id);
+	}
+	
+	public Usuario login(String email, String senha) throws Exception {
+		Usuario usuario = this.repository.findUsuarioByEmail(email);
+		
+		if(usuario == null || usuario.getId() == null) {
+			throw new Exception("Usuário não foi encontrado!");
+		} else if(!(BCrypt.checkpw(senha, usuario.getSenha()))) {
+			throw new Exception("Usuário ou Senha incorretos!");
+		} else {
+			return usuario;
+		}
 	}
 
 }
